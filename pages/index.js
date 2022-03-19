@@ -1,27 +1,13 @@
 import Image from "next/image"
 import home1 from "../images/home1-img.png"
-import favicon from "../images/favicon.png"
+import Menu from "./menu"
 
 export default function Index() {
   return (
     <div className="site">
       <div className="site__wrapper">
         <div className="site__menu">
-            <div className="menu__logo">
-              <Image
-                src={favicon}
-                width="16px"
-                height="16px"
-              />
-            </div>
-            <p className="menu__name">Hellowen</p>
-            <div className="menu__url">
-              <a>Home</a>
-              <a>About</a>
-              <a>Candy</a>
-              <a>News</a>
-              <a className="menu__support">Support</a>
-            </div>
+          <Menu />
         </div>
         <div className="site__content">
             <div className="site__slider">
