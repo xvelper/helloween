@@ -21,8 +21,8 @@ export default function Category() {
                     <div className="category__product">
                         <Image 
                             src={cat1}
-                            width="200px"
-                            height="200px"
+                            width="250px"
+                            height="250px"
                         />
                         <p className="product__title">
                             Ghosts
@@ -34,8 +34,8 @@ export default function Category() {
                     <div className="category__product">
                         <Image 
                             src={cat2}
-                            width="200px"
-                            height="200px"
+                            width="250px"
+                            height="250px"
                         />
                         <p className="product__title">
                             Pumpkings
@@ -47,8 +47,8 @@ export default function Category() {
                     <div className="category__product">
                         <Image 
                             src={cat3}
-                            width="200px"
-                            height="200px"
+                            width="250px"
+                            height="250px"
                         />
                         <p className="product__title">
                             Witch Hat
